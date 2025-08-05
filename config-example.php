@@ -1,6 +1,6 @@
 <?php
-define('KEYCLOAK_BASE_URL', 'https://login.ponorogo.go.id');
-define('KEYCLOAK_REALM', 'simashebat');
+define('KEYCLOAK_BASE_URL', 'YOUR KEYCLOAK BASE URL HERE');
+define('KEYCLOAK_REALM', 'YOUR REALM HERE');
 define('KEYCLOAK_CLIENT_ID', 'YOUR CLIENT ID HERE');
 define('KEYCLOAK_CLIENT_SECRET', 'YOUR SECRET HERE');
 define('REDIRECT_URI', 'http://localhost:8000/callback.php');

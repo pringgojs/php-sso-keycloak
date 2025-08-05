@@ -42,4 +42,6 @@ $userinfo = file_get_contents(USERINFO_ENDPOINT, false, stream_context_create([
 ]));
 
 $_SESSION['user'] = json_decode($userinfo, true);
+$_SESSION['access_token'] = $data['access_token'];
+$_SESSION['id_token'] = $data['id_token']; // tambahkan ini
 header('Location: index.php');

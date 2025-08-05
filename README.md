@@ -143,9 +143,8 @@ Jika ingin memperluas:
 
 ---
 
-## 📸 Screenshot (Opsional)
+## 📸 Screenshot
 
-Tambahkan screenshot halaman login dan profil pengguna setelah login di sini (jika ada).
 ![alt text](image.png)
 
 ---
